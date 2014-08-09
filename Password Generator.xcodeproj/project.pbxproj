@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4CC7E261995C10F00027F2E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CC7E251995C10F00027F2E /* Cocoa.framework */; };
+		F4CC7E301995C10F00027F2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4CC7E2E1995C10F00027F2E /* InfoPlist.strings */; };
+		F4CC7E321995C10F00027F2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CC7E311995C10F00027F2E /* main.m */; };
+		F4CC7E361995C10F00027F2E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = F4CC7E341995C10F00027F2E /* Credits.rtf */; };
+		F4CC7E391995C10F00027F2E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CC7E381995C10F00027F2E /* AppDelegate.m */; };
+		F4CC7E3C1995C10F00027F2E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4CC7E3A1995C10F00027F2E /* MainMenu.xib */; };
+		F4CC7E3E1995C10F00027F2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CC7E3D1995C10F00027F2E /* Images.xcassets */; };
+		F4CC7E451995C10F00027F2E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CC7E441995C10F00027F2E /* XCTest.framework */; };
+		F4CC7E461995C10F00027F2E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CC7E251995C10F00027F2E /* Cocoa.framework */; };
+		F4CC7E4E1995C10F00027F2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4CC7E4C1995C10F00027F2E /* InfoPlist.strings */; };
+		F4CC7E501995C10F00027F2E /* Password_GeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CC7E4F1995C10F00027F2E /* Password_GeneratorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4CC7E471995C10F00027F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CC7E1A1995C10F00027F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CC7E211995C10F00027F2E;
+			remoteInfo = "Password Generator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4CC7E221995C10F00027F2E /* Password Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CC7E251995C10F00027F2E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		F4CC7E281995C10F00027F2E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		F4CC7E291995C10F00027F2E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F4CC7E2A1995C10F00027F2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F4CC7E2D1995C10F00027F2E /* Password Generator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Password Generator-Info.plist"; sourceTree = "<group>"; };
+		F4CC7E2F1995C10F00027F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4CC7E311995C10F00027F2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4CC7E331995C10F00027F2E /* Password Generator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Password Generator-Prefix.pch"; sourceTree = "<group>"; };
+		F4CC7E351995C10F00027F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		F4CC7E371995C10F00027F2E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F4CC7E381995C10F00027F2E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F4CC7E3B1995C10F00027F2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		F4CC7E3D1995C10F00027F2E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F4CC7E431995C10F00027F2E /* Password GeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Password GeneratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CC7E441995C10F00027F2E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F4CC7E4B1995C10F00027F2E /* Password GeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Password GeneratorTests-Info.plist"; sourceTree = "<group>"; };
+		F4CC7E4D1995C10F00027F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F4CC7E4F1995C10F00027F2E /* Password_GeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Password_GeneratorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4CC7E1F1995C10F00027F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CC7E261995C10F00027F2E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CC7E401995C10F00027F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CC7E461995C10F00027F2E /* Cocoa.framework in Frameworks */,
+				F4CC7E451995C10F00027F2E /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4CC7E191995C10F00027F2E = {
+			isa = PBXGroup;
+			children = (
+				F4CC7E2B1995C10F00027F2E /* Password Generator */,
+				F4CC7E491995C10F00027F2E /* Password GeneratorTests */,
+				F4CC7E241995C10F00027F2E /* Frameworks */,
+				F4CC7E231995C10F00027F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CC7E231995C10F00027F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC7E221995C10F00027F2E /* Password Generator.app */,
+				F4CC7E431995C10F00027F2E /* Password GeneratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CC7E241995C10F00027F2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC7E251995C10F00027F2E /* Cocoa.framework */,
+				F4CC7E441995C10F00027F2E /* XCTest.framework */,
+				F4CC7E271995C10F00027F2E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4CC7E271995C10F00027F2E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC7E281995C10F00027F2E /* AppKit.framework */,
+				F4CC7E291995C10F00027F2E /* CoreData.framework */,
+				F4CC7E2A1995C10F00027F2E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		F4CC7E2B1995C10F00027F2E /* Password Generator */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC7E371995C10F00027F2E /* AppDelegate.h */,
+				F4CC7E381995C10F00027F2E /* AppDelegate.m */,
+				F4CC7E3A1995C10F00027F2E /* MainMenu.xib */,
+				F4CC7E3D1995C10F00027F2E /* Images.xcassets */,
+				F4CC7E2C1995C10F00027F2E /* Supporting Files */,
+			);
+			path = "Password Generator";
+			sourceTree = "<group>";
+		};
+		F4CC7E2C1995C10F00027F2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC7E2D1995C10F00027F2E /* Password Generator-Info.plist */,
+				F4CC7E2E1995C10F00027F2E /* InfoPlist.strings */,
+				F4CC7E311995C10F00027F2E /* main.m */,
+				F4CC7E331995C10F00027F2E /* Password Generator-Prefix.pch */,
+				F4CC7E341995C10F00027F2E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F4CC7E491995C10F00027F2E /* Password GeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC7E4F1995C10F00027F2E /* Password_GeneratorTests.m */,
+				F4CC7E4A1995C10F00027F2E /* Supporting Files */,
+			);
+			path = "Password GeneratorTests";
+			sourceTree = "<group>";
+		};
+		F4CC7E4A1995C10F00027F2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4CC7E4B1995C10F00027F2E /* Password GeneratorTests-Info.plist */,
+				F4CC7E4C1995C10F00027F2E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4CC7E211995C10F00027F2E /* Password Generator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CC7E531995C10F00027F2E /* Build configuration list for PBXNativeTarget "Password Generator" */;
+			buildPhases = (
+				F4CC7E1E1995C10F00027F2E /* Sources */,
+				F4CC7E1F1995C10F00027F2E /* Frameworks */,
+				F4CC7E201995C10F00027F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Password Generator";
+			productName = "Password Generator";
+			productReference = F4CC7E221995C10F00027F2E /* Password Generator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4CC7E421995C10F00027F2E /* Password GeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CC7E561995C10F00027F2E /* Build configuration list for PBXNativeTarget "Password GeneratorTests" */;
+			buildPhases = (
+				F4CC7E3F1995C10F00027F2E /* Sources */,
+				F4CC7E401995C10F00027F2E /* Frameworks */,
+				F4CC7E411995C10F00027F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CC7E481995C10F00027F2E /* PBXTargetDependency */,
+			);
+			name = "Password GeneratorTests";
+			productName = "Password GeneratorTests";
+			productReference = F4CC7E431995C10F00027F2E /* Password GeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CC7E1A1995C10F00027F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Mikhail Studios";
+				TargetAttributes = {
+					F4CC7E421995C10F00027F2E = {
+						TestTargetID = F4CC7E211995C10F00027F2E;
+					};
+				};
+			};
+			buildConfigurationList = F4CC7E1D1995C10F00027F2E /* Build configuration list for PBXProject "Password Generator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4CC7E191995C10F00027F2E;
+			productRefGroup = F4CC7E231995C10F00027F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CC7E211995C10F00027F2E /* Password Generator */,
+				F4CC7E421995C10F00027F2E /* Password GeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4CC7E201995C10F00027F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CC7E301995C10F00027F2E /* InfoPlist.strings in Resources */,
+				F4CC7E3E1995C10F00027F2E /* Images.xcassets in Resources */,
+				F4CC7E361995C10F00027F2E /* Credits.rtf in Resources */,
+				F4CC7E3C1995C10F00027F2E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CC7E411995C10F00027F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CC7E4E1995C10F00027F2E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4CC7E1E1995C10F00027F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CC7E391995C10F00027F2E /* AppDelegate.m in Sources */,
+				F4CC7E321995C10F00027F2E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CC7E3F1995C10F00027F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CC7E501995C10F00027F2E /* Password_GeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4CC7E481995C10F00027F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CC7E211995C10F00027F2E /* Password Generator */;
+			targetProxy = F4CC7E471995C10F00027F2E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4CC7E2E1995C10F00027F2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CC7E2F1995C10F00027F2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F4CC7E341995C10F00027F2E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CC7E351995C10F00027F2E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		F4CC7E3A1995C10F00027F2E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CC7E3B1995C10F00027F2E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		F4CC7E4C1995C10F00027F2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CC7E4D1995C10F00027F2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4CC7E511995C10F00027F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F4CC7E521995C10F00027F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F4CC7E541995C10F00027F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Password Generator/Password Generator-Prefix.pch";
+				INFOPLIST_FILE = "Password Generator/Password Generator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F4CC7E551995C10F00027F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Password Generator/Password Generator-Prefix.pch";
+				INFOPLIST_FILE = "Password Generator/Password Generator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F4CC7E571995C10F00027F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Password Generator.app/Contents/MacOS/Password Generator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Password Generator/Password Generator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Password GeneratorTests/Password GeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F4CC7E581995C10F00027F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Password Generator.app/Contents/MacOS/Password Generator";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Password Generator/Password Generator-Prefix.pch";
+				INFOPLIST_FILE = "Password GeneratorTests/Password GeneratorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4CC7E1D1995C10F00027F2E /* Build configuration list for PBXProject "Password Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CC7E511995C10F00027F2E /* Debug */,
+				F4CC7E521995C10F00027F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CC7E531995C10F00027F2E /* Build configuration list for PBXNativeTarget "Password Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CC7E541995C10F00027F2E /* Debug */,
+				F4CC7E551995C10F00027F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4CC7E561995C10F00027F2E /* Build configuration list for PBXNativeTarget "Password GeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CC7E571995C10F00027F2E /* Debug */,
+				F4CC7E581995C10F00027F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4CC7E1A1995C10F00027F2E /* Project object */;
+}
