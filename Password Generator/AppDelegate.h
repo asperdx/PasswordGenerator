@@ -11,5 +11,13 @@
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+- (IBAction)uppercaseBool:(id)sender;
+- (IBAction)numberBool:(id)sender;
+- (IBAction)symbolBool:(id)sender;
+- (IBAction)generateText:(id)sender;
+@property (weak) IBOutlet NSTextField *passwordField;
+@property (weak) IBOutlet NSComboBox *passwordLengthBox;
+- (IBAction)passwordLength:(id)sender;
+@property (weak) IBOutlet NSTextField *crackTimeLabel;
 
 @end

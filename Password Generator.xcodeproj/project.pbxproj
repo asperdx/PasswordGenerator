@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F49DF78D1995D6D000539834 /* passwordGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = F49DF78C1995D6D000539834 /* passwordGenerator.m */; };
 		F4CC7E261995C10F00027F2E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CC7E251995C10F00027F2E /* Cocoa.framework */; };
 		F4CC7E301995C10F00027F2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4CC7E2E1995C10F00027F2E /* InfoPlist.strings */; };
 		F4CC7E321995C10F00027F2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CC7E311995C10F00027F2E /* main.m */; };
@@ -18,6 +19,9 @@
 		F4CC7E461995C10F00027F2E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4CC7E251995C10F00027F2E /* Cocoa.framework */; };
 		F4CC7E4E1995C10F00027F2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F4CC7E4C1995C10F00027F2E /* InfoPlist.strings */; };
 		F4CC7E501995C10F00027F2E /* Password_GeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CC7E4F1995C10F00027F2E /* Password_GeneratorTests.m */; };
+		F4F137A219960CFB0079F20E /* iconmonstr-key-10-icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F137A119960CFB0079F20E /* iconmonstr-key-10-icon-128.png */; };
+		F4F137A419960D060079F20E /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F137A319960D060079F20E /* Images-2.xcassets */; };
+		F4F137A619960D690079F20E /* iconmonstr-key-10-icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = F4F137A519960D690079F20E /* iconmonstr-key-10-icon-256.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F49DF78B1995D6D000539834 /* passwordGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = passwordGenerator.h; sourceTree = "<group>"; };
+		F49DF78C1995D6D000539834 /* passwordGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = passwordGenerator.m; sourceTree = "<group>"; };
 		F4CC7E221995C10F00027F2E /* Password Generator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Password Generator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CC7E251995C10F00027F2E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		F4CC7E281995C10F00027F2E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -50,6 +56,9 @@
 		F4CC7E4B1995C10F00027F2E /* Password GeneratorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Password GeneratorTests-Info.plist"; sourceTree = "<group>"; };
 		F4CC7E4D1995C10F00027F2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F4CC7E4F1995C10F00027F2E /* Password_GeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Password_GeneratorTests.m; sourceTree = "<group>"; };
+		F4F137A119960CFB0079F20E /* iconmonstr-key-10-icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconmonstr-key-10-icon-128.png"; sourceTree = "<group>"; };
+		F4F137A319960D060079F20E /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		F4F137A519960D690079F20E /* iconmonstr-key-10-icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iconmonstr-key-10-icon-256.png"; path = "../../../Downloads/iconmonstr-key-10-icon-256.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +85,8 @@
 		F4CC7E191995C10F00027F2E = {
 			isa = PBXGroup;
 			children = (
+				F4F137A119960CFB0079F20E /* iconmonstr-key-10-icon-128.png */,
+				F4F137A519960D690079F20E /* iconmonstr-key-10-icon-256.png */,
 				F4CC7E2B1995C10F00027F2E /* Password Generator */,
 				F4CC7E491995C10F00027F2E /* Password GeneratorTests */,
 				F4CC7E241995C10F00027F2E /* Frameworks */,
@@ -117,8 +128,11 @@
 			children = (
 				F4CC7E371995C10F00027F2E /* AppDelegate.h */,
 				F4CC7E381995C10F00027F2E /* AppDelegate.m */,
+				F49DF78B1995D6D000539834 /* passwordGenerator.h */,
+				F49DF78C1995D6D000539834 /* passwordGenerator.m */,
 				F4CC7E3A1995C10F00027F2E /* MainMenu.xib */,
 				F4CC7E3D1995C10F00027F2E /* Images.xcassets */,
+				F4F137A319960D060079F20E /* Images-2.xcassets */,
 				F4CC7E2C1995C10F00027F2E /* Supporting Files */,
 			);
 			path = "Password Generator";
@@ -230,7 +244,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4F137A619960D690079F20E /* iconmonstr-key-10-icon-256.png in Resources */,
+				F4F137A419960D060079F20E /* Images-2.xcassets in Resources */,
 				F4CC7E301995C10F00027F2E /* InfoPlist.strings in Resources */,
+				F4F137A219960CFB0079F20E /* iconmonstr-key-10-icon-128.png in Resources */,
 				F4CC7E3E1995C10F00027F2E /* Images.xcassets in Resources */,
 				F4CC7E361995C10F00027F2E /* Credits.rtf in Resources */,
 				F4CC7E3C1995C10F00027F2E /* MainMenu.xib in Resources */,
@@ -254,6 +271,7 @@
 			files = (
 				F4CC7E391995C10F00027F2E /* AppDelegate.m in Sources */,
 				F4CC7E321995C10F00027F2E /* main.m in Sources */,
+				F49DF78D1995D6D000539834 /* passwordGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +407,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Password Generator/Password Generator-Prefix.pch";
 				INFOPLIST_FILE = "Password Generator/Password Generator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -402,6 +421,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Password Generator/Password Generator-Prefix.pch";
 				INFOPLIST_FILE = "Password Generator/Password Generator-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -423,6 +443,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Password GeneratorTests/Password GeneratorTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -441,6 +462,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Password Generator/Password Generator-Prefix.pch";
 				INFOPLIST_FILE = "Password GeneratorTests/Password GeneratorTests-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -466,6 +488,7 @@
 				F4CC7E551995C10F00027F2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4CC7E561995C10F00027F2E /* Build configuration list for PBXNativeTarget "Password GeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +497,7 @@
 				F4CC7E581995C10F00027F2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
